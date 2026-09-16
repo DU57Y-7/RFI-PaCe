@@ -36,27 +36,9 @@ const PARTNERS = [
     cardBg: "white",
   },
   {
-    name: "CSIRO",
-    link: "https://www.csiro.au",
-    logo: "assets/logos/csiro.png",
-    cardBg: "white",
-  },
-  {
     name: "IEEE Geoscience and Remote Sensing Society",
     link: "https://www.grss-ieee.org",
     logo: "assets/logos/ieee-grss.png",
-    cardBg: "white",
-  },
-  {
-    name: "Ansys",
-    link: "https://www.ansys.com",
-    logo: "assets/logos/ansys.png",
-    cardBg: "white",
-  },
-  {
-    name: "LEAP Australia",
-    link: "https://www.leapaust.com.au",
-    logo: "assets/logos/leap-australia.png",
     cardBg: "white",
   },
 ];
@@ -69,9 +51,15 @@ const SPONSORS = [
     cardBg: "white",
   },
   {
-    name: "PCBWay",
-    link: "https://www.pcbway.com",
-    logo: "assets/logos/pcbway.png",
+    name: "Ansys",
+    link: "https://www.ansys.com",
+    logo: "assets/logos/ansys.png",
+    cardBg: "white",
+  },
+  {
+    name: "LEAP Australia",
+    link: "https://www.leapaust.com.au",
+    logo: "assets/logos/leap-australia.png",
     cardBg: "white",
   },
 ];
