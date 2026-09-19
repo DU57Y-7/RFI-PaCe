@@ -62,6 +62,12 @@ const SPONSORS = [
     logo: "assets/logos/leap-australia.png",
     cardBg: "white",
   },
+  {
+    name: "Critical Link",
+    link: "https://www.criticallink.com/",
+    logo: "assets/logos/critical_link_logo.png",
+    cardBg: "white",
+  },
 ];
 
 // Explicit window assignment — top-level `const` does NOT become a
