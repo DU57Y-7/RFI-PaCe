@@ -37,13 +37,13 @@ const TIMELINE = [
     period: "September 2026",
     title: "Critical Design Review (CDR)",
     blurb: "The detailed payload design is reviewed and the hardware, PCB, mechanical, thermal, and processing architectures are prepared for implementation.",
-    status: "done",
+    status: "current",
   },
   {
     period: "November 2026",
     title: "Engineering Model / Integration",
     blurb: "The engineering model is assembled and subsystem integration begins, combining the RF, digital, mechanical, and processing elements of the payload.",
-    status: "current",
+    status: "upcoming",
   },
   {
     period: "January 2027",
