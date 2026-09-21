@@ -47,7 +47,7 @@ const OUTREACH = [
   },
   {
     event: "Griffith Showcase — Nathan",
-    date: "September 2026",
+    date: "October 2026",
     location: "Griffith University, Nathan",
     type: ["outreach"],
     description: "RFI-PaCe project introduction to attendees at the Griffith University Nathan campus showcase.",
@@ -55,7 +55,7 @@ const OUTREACH = [
   },
   {
     event: "Griffith Showcase — Gold Coast",
-    date: "October 2026",
+    date: "November 2026",
     location: "Griffith University, Gold Coast",
     type: ["outreach"],
     description: "RFI-PaCe project introduction to attendees at the Griffith University Gold Coast campus showcase.",
