@@ -69,7 +69,7 @@ const TEAM = [
   },
   {
     name: "Max Gadsby",
-    role: "Microwave Engineering",
+    role: "Microwave, Analog & Digital Engineering",
     university: "Griffith University — PhD Candidate",
     linkedin: "https://www.linkedin.com/in/max-gadsby-4148b926a/",
     photo: "assets/img/team/max.png",
