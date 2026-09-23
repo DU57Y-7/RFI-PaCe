@@ -1,8 +1,9 @@
 /* =====================================================================
    RENDER TEAM
-   Reads window.TEAM (defined in team.js) and builds the roster grid
-   on team.html. Card order top to bottom: photo, name, role,
-   university, LinkedIn link, bio.
+   Reads window.TEAM (defined in team.js) and window.MENTORS (defined
+   in mentors.js) and builds the roster grids on team.html — Team into
+   #team-grid, Mentors into #mentors-grid. Card order top to bottom:
+   photo, name, role, university, LinkedIn link, bio.
    ===================================================================== */
 
 (function () {
@@ -100,15 +101,19 @@
     return card;
   }
 
-  function render() {
-    var root = document.getElementById("team-grid");
+  function renderInto(containerId, members) {
+    var root = document.getElementById(containerId);
     if (!root) return;
-    var members = window.TEAM || [];
-    if (!members.length) return;
+    if (!members || !members.length) return;
     var grid = document.createElement("div");
     grid.className = "team-grid";
     members.forEach(function (m) { grid.appendChild(buildCard(m)); });
     root.appendChild(grid);
+  }
+
+  function render() {
+    renderInto("team-grid", window.TEAM);
+    renderInto("mentors-grid", window.MENTORS);
   }
 
   document.addEventListener("DOMContentLoaded", render);
