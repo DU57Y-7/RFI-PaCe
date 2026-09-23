@@ -93,7 +93,7 @@ const TEAM = [
   },
   {
     name: "Dustin McGuire",
-    role: "Marketing, Outreach & Social Media",
+    role: "Marketing, Outreach & Social Media (Interim)",
     university: "Griffith University — Undergraduate Student",
     linkedin: "https://www.linkedin.com/in/du57y/",
     photo: "assets/img/team/dustin.png",
