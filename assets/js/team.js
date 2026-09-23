@@ -69,7 +69,7 @@ const TEAM = [
   },
   {
     name: "Max Gadsby",
-    role: "Microwave, Analog & Digital Engineering",
+    role: "Microwave Engineering",
     university: "Griffith University — PhD Candidate",
     linkedin: "https://www.linkedin.com/in/max-gadsby-4148b926a/",
     photo: "assets/img/team/max.png",
@@ -97,6 +97,15 @@ const TEAM = [
     university: "Griffith University — Undergraduate Student",
     linkedin: "https://www.linkedin.com/in/du57y/",
     photo: "assets/img/team/dustin.png",
+    bio: null,
+  },
+  {
+    // Role is an interim title — update once confirmed.
+    name: "William Pell",
+    role: "Project Assistant (Interim)",
+    university: "Griffith University — Undergraduate Student",
+    linkedin: "https://www.linkedin.com/in/williampell/",
+    photo: "assets/img/team/william.png",
     bio: null,
   },
 ];
