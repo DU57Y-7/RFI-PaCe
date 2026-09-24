@@ -69,6 +69,12 @@ const TIMELINE = [
     blurb: "Subject to paper acceptance, project results are planned to be presented at IEEE IGARSS 2027 in Reykjavík.",
     status: "upcoming",
   },
+ {
+    period: "Mid-Late 2027",
+    title: "Further Research",
+    blurb: "Stay tuned for details, as this is not the end of the team",
+    status: "upcoming",
+  },
 ];
 
 window.TIMELINE = TIMELINE;
