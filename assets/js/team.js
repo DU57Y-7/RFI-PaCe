@@ -93,19 +93,26 @@ const TEAM = [
   },
   {
     name: "Dustin McGuire",
-    role: "Marketing, Outreach & Social Media (Interim)",
+    role: "Marketing, Outreach & Social Media",
     university: "Griffith University — Undergraduate Student",
     linkedin: "https://www.linkedin.com/in/du57y/",
     photo: "assets/img/team/dustin.png",
     bio: null,
   },
   {
-    // Role is an interim title — update once confirmed.
     name: "William Pell",
-    role: "Project Assistant (Interim)",
+    role: "PCB Engineer",
     university: "Griffith University — Undergraduate Student",
     linkedin: "https://www.linkedin.com/in/williampell/",
     photo: "assets/img/team/william.png",
+    bio: null,
+  },
+     {
+    name: "Otto Pattemore",
+    role: "Radio Engineer",
+    university: "Griffith University — Undergraduate Student",
+    linkedin: "https://www.linkedin.com/in/otto-pattemore/",
+    photo: "assets/img/team/otto.png",
     bio: null,
   },
 ];
